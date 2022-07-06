@@ -26,7 +26,7 @@ body {
     border-radius: 5px;
 }
 
-.donation-amount {
+.donation-section {
     text-align: center;
     position: absolute;
     right: 25%;
@@ -41,4 +41,53 @@ body {
 
 #try-color {
     color: rgb(69, 68, 68);
+}
+
+.flex-continer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+#enter-amount {
+    margin: 20px;
+    padding: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+#select-amount {
+    margin: 20px;
+    padding: 20px;
+    font-weight: 700;
+    background-color: tomato;
+    border-radius: 5px;
+    margin-block-end: 2%;
+}
+
+.amount-bottom {
+    position: relative;
+    top: 200px;
+    left: 0%;
+}
+
+.kisu-akta {
+    position: relative;
+    text-align: center;
+    top: 250px;
+}
+
+.aro-kisu-akta {
+    position: relative;
+    text-align: center;
+    top: 280px;
+}
+
+.porer-ta {
+    position: relative;
+    text-align: center;
+    top: 300px;
 }
