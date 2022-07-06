@@ -56,16 +56,16 @@ body {
     padding: 20px;
     font-weight: 700;
     border-radius: 5px;
-    background-color: gray;
+    background-color: rgb(213, 211, 211);
 }
 
 #select-amount {
     margin: 20px;
     padding: 20px;
     font-weight: 700;
-    background-color: tomato;
+    background-color: rgb(254, 161, 145);
     border-radius: 5px;
-    margin-block-end: 2%;
+    border-color: solid red, black;
 }
 
 .amount-bottom {
@@ -74,20 +74,132 @@ body {
     left: 0%;
 }
 
-.kisu-akta {
+.other-amount {
     position: relative;
     text-align: center;
-    top: 250px;
+    top: 220px;
 }
 
-.aro-kisu-akta {
-    position: relative;
-    text-align: center;
-    top: 280px;
+#hori-width {
+    width: 40%;
 }
 
-.porer-ta {
+.amount-select-button {
     position: relative;
     text-align: center;
-    top: 300px;
+    top: 230px;
+}
+
+.donation-plan {
+    position: relative;
+    text-align: center;
+    top: 260px;
+}
+
+#paragraph-line {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+
+.half-width {
+    position: absolute;
+    text-align: center;
+    left: 15%;
+    right: 15%;
+    top: 180px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#left-box {
+    float: left;
+    width: 263px;
+    height: 300px;
+    background-color: rgb(186, 237, 243);
+}
+
+#middle-box {
+    float: left;
+    width: 263px;
+    height: 300px;
+    background-color: rgb(244, 207, 207);
+    margin-left: 20px
+}
+
+#right-box {
+    float: right;
+    width: 263px;
+    height: 300px;
+    background-color: rgb(246, 246, 191);
+    margin-left: 20px
+}
+
+.continar {
+    position: relative;
+    top: 500px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.continar img {
+    width: 100%;
+    height: 120%;
+}
+
+.about-us {
+    text-align: center;
+
+}
+
+#font {
+    font-size: 40px;
+}
+
+.contribute {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-image: linear-gradient(tomato, red);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.continar-two {
+    position: relative;
+    top: 700px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.continar-third {
+    position: relative;
+    top: 900px;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.continar-forth {
+    position: relative;
+    top: 1100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#third {
+    font-size: 40px;
+}
+
+#forth {
+    font-size: 50px;
+}
+
+#updates {
+    font-size: 20px;
 }
