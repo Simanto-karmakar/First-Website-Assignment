@@ -80,7 +80,7 @@ body {
     top: 220px;
 }
 
-#hori-width {
+#line {
     width: 40%;
 }
 
@@ -103,7 +103,7 @@ body {
     right: 25%;
 }
 
-.half-width {
+.box {
     position: absolute;
     text-align: center;
     left: 15%;
@@ -151,7 +151,7 @@ body {
     height: 120%;
 }
 
-.about-us {
+.about {
     text-align: center;
 
 }
@@ -208,7 +208,7 @@ body {
     margin-right: 20%;
 }
 
-.last {
+.contract {
     position: relative;
     top: 900px;
     background-color: bisque;
