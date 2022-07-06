@@ -187,7 +187,7 @@ body {
 
 .continar-forth {
     position: relative;
-    top: 1100px;
+    top: 900px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -206,4 +206,51 @@ body {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.last {
+    position: relative;
+    top: 900px;
+    background-color: bisque;
+    height: 150px;
+    width: 700px;
+    margin-left: 20%;
+}
+
+#email {
+    margin-top: 50px;
+    padding: 5px;
+    width: 300px;
+
+}
+
+#subscribe {
+    text-decoration: none;
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer {
+    position: relative;
+    top: 1000px;
+    background-color: rgb(7, 7, 50);
+    color: red;
+    height: 130px;
+    font-style: italic;
+
+}
+
+#footer {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 100%;
+}
+
+#footer-two {
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 100%;
 }
